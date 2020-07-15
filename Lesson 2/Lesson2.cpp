@@ -22,7 +22,7 @@ int main()
 	
 	int age = 4;
 	
-	printf("\nHello, I am %d", age);	//age replaces %d in the printed statement
+	printf("\nHello, I am %d", &age);	//age replaces %d in the printed statement, the '&' will be explained later
 	/*
 		printf Specifiers:
 			%d or %i	signed integer
